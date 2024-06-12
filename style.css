@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: azure;
+    background-color: rgb(73, 73, 73);
 }
 
 #calculator{
@@ -18,7 +18,7 @@ body{
 #display{
     width: 100%;
     padding: 20px;
-    font-size: 5rem;
+    font-size: 2rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
@@ -54,13 +54,14 @@ button:active{
 }
 
 .operator-btn{
-    background-color: greenyellow;
+    background-color: rgb(55, 194, 0);
+    color: black;
 }
 
 .operator-btn:hover{
-    background-color: rgb(193, 255, 99);
+    background-color: rgb(16, 122, 2);
 }
 
 .operator-btn:active{
-    background-color: rgb(215, 255, 156);
+    background-color: rgb(44, 167, 28);
 }
